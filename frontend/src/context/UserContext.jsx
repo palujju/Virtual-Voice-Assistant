@@ -3,7 +3,7 @@ import { UserDataContext } from "./UserDataContext";
 import axios from "axios";
 
 const UserContext = ({ children }) => {
-  const serverUrl = "http://localhost:8080";
+  const serverUrl = "https://virtualassistantbackend-q7lf.onrender.com";
   const [userData, setUserData] = useState(null);
   const [frontendImage, setFrontendImage] = useState(null);
   const [backendImage, setBackendImage] = useState(null);
